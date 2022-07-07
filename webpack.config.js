@@ -62,6 +62,7 @@ module.exports = {
       name: "cherry",
       filename: "remoteEntry.js",
       exposes: {
+        "./App": "./src/App",
         "./Example": "./src/Example",
       },
       shared:{
