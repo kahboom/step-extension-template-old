@@ -1,14 +1,18 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Example from "./Example";
+import Example
+  from './Example';
 
 function App() {
   return (
-    <div className="App">
+    <div
+      className='App'>
       <p>
-        Step Extension Template
+        Step
+        Extension
+        Template
       </p>
-      <Example/>
+      <Example />
     </div>
   );
 }

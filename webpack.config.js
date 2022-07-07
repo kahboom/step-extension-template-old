@@ -59,7 +59,7 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "sshsource",
+      name: "cherry",
       filename: "remoteEntry.js",
       exposes: {
         "./Example": "./src/Example",
