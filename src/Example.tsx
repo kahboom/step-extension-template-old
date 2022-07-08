@@ -31,6 +31,10 @@ const Example = (props: IProps) => {
         setLocalStep(newStep);
       });
     }
+
+    if(props.onButtonClicked) {
+      props.onButtonClicked();
+    }
   };
 
   return (
