@@ -6,18 +6,17 @@ module.exports = {
   entry: "./src/index",
   mode: "development",
   devServer: {
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': '*',
-      'Access-Control-Allow-Headers': '*',
-    },
+    // headers: {
+    //   'Access-Control-Allow-Origin': '*',
+    //   'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
+    //   'Access-Control-Allow-Headers': 'X-Requested-With, content-type, Authorization',
+    // },
     static: {
       directory: path.join(__dirname, "dist"),
     },
     port: 3004,
   },
   output: {
-    crossOriginLoading: 'anonymous',
     publicPath: "auto",
   },
   resolve: {
